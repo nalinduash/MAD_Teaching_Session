@@ -39,6 +39,10 @@ android {
     buildFeatures {
         compose = true
     }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.15"
+    }
 }
 
 dependencies {
@@ -57,6 +61,8 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:3.0.0")
     // Json-object convertor
     implementation("com.squareup.retrofit2:converter-gson:3.0.0")
+    // Google Maps
+    implementation("com.google.maps.android:maps-compose:6.12.1")
 
     testImplementation(libs.junit)
 
