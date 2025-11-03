@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.example.kuppi.s2.complete.s2ScreenFuncFull
 import com.example.kuppi.s2.minimal.s2ScreenFuncMinimal
+import com.example.kuppi.s3.s3ScreenFunc
 import com.example.kuppi.ui.theme.KuppiTheme
 
 class MainActivity : ComponentActivity() {
@@ -14,7 +15,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             KuppiTheme (){
-                s2ScreenFuncMinimal()
+                s3ScreenFunc()
             }
         }
     }
